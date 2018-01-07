@@ -1,0 +1,83 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 53313
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 53314
+[Appium]   tmpDir: C:\Users\Dhiraj\AppData\Local\Temp\\Katalon\Appium\Temp1515089586483
+[Appium] Appium REST http interface listener started on 0.0.0.0:53313
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 72 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Dhiraj\\Katalon Studio\\TestMobile1\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"HUAWEI BND-AL10 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"P2L4C17B14001330"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Dhiraj\\Katalon Studio\\TestMobile1\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"HUAWEI BND-AL10 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"P2L4C17B14001330"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Dhira... into desiredCapabilities object {"app":"C:\\Users\\Dhiraj\\Katalon Studio\\Test...
+[Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Dhiraj\Katalon Studio\TestMobile1\androidapp\APIDemos.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: HUAWEI BND-AL10 7.0
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: P2L4C17B14001330
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 83c82218-04c1-4d49-b667-367fb09f0676
+[BaseDriver] Using local app 'C:\Users\Dhiraj\Katalon Studio\TestMobile1\androidapp\APIDemos.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\Dhiraj\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: P2L4C17B14001330
+[ADB] Checking whether adb is present
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\Dhiraj\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Using apksigner.bat from C:\Users\Dhiraj\.katalon\tools\android_sdk\build-tools\27.0.2\apksigner.bat
+[AndroidDriver] Remote apk path is /data/local/tmp/a3eab2697b5cbe60eeddf1468624f5f7.apk
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[UiAutomator2] Starting uiautomator2 server v0.3.0
+[UiAutomator2] Running command: 'adb -s P2L4C17B14001330 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.hmh.api/com.hmh.api.ApiDemos'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 83c82218-04c1-4d49-b667-367fb09f0676 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 22482 ms - 379 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 6 ms - 83 
+[HTTP] --> POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/timeouts 200 11 ms - 76 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/source {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 8c5a0046-0450-4fdb-a2ee-8e3222dde914 with 83c82218-04c1-4d49-b667-367fb09f0676
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/source 200 176 ms - 7570 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/screenshot {}
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/screenshot 200 1789 ms - 134002 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context {}
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context 200 8 ms - 84 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/contexts {}
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/contexts 200 178 ms - 103 
+[HTTP] --> POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context 200 118 ms - 76 
+[HTTP] --> POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/appium/device/press_keycode {"keycode":4}
+[HTTP] <-- POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/appium/device/press_keycode 200 207 ms - 76 
+[HTTP] --> POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/context 200 155 ms - 76 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/source {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 8c5a0046-0450-4fdb-a2ee-8e3222dde914 with 83c82218-04c1-4d49-b667-367fb09f0676
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/source 200 233 ms - 7570 
+[HTTP] --> GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/screenshot {}
+[HTTP] <-- GET /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676/screenshot 200 1721 ms - 133302 
+[HTTP] --> DELETE /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676 {}
+[Appium] Removing session 83c82218-04c1-4d49-b667-367fb09f0676 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/83c82218-04c1-4d49-b667-367fb09f0676 200 898 ms - 76 
